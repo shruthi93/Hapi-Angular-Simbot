@@ -1,0 +1,104 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 200;
+}
+
+.login {
+    position: relative;
+    top: 50%;
+    width: 350px;
+    height: 200px;
+    display: table;
+    margin: 100px auto 0 auto;
+    background: #eee;
+    border-radius: 4px;
+}
+
+.legend {
+    text-align: center;
+    position: relative;
+    width: 100%;
+    display: block;
+    background: #071833;
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.legend:after {
+    content: "";
+    background-image: url(http://simpleicon.com/wp-content/uploads/multy-user.png);
+    background-size: 100px 100px;
+    background-repeat: no-repeat;
+    background-position: 152px -16px;
+    opacity: 0.06;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.input {
+    position: relative;
+    width: 90%;
+    margin: 35px auto;
+}
+
+.input input:focus {
+    padding: 10px 5px 10px 10px;
+    outline: 0;
+    border-color: #FF7052;
+}
+
+#createButton {
+    width: 30px;
+    height: 60px;
+    font-weight: bold;
+    padding-left: 150px;
+    margin-top: 30px;
+    color: black;
+}
+
+span {
+    margin-top: -20px;
+}
+
+#loginButton {
+    width: 30px;
+    height: 60px;
+    font-weight: bold;
+    padding-left: 125px;
+    margin-top: 1%;
+}
+
+p {
+    padding-left: 200px;
+}
+
+.help-block {
+    color: red;
+}
+
+.error {
+    color: red;
+    text-align: center;
+}
+
+.btn-submit {
+    background-color: #071833;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+}
